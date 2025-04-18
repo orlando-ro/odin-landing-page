@@ -123,3 +123,25 @@ a {
     width: 100px;
     border-radius: 15px;
 }
+
+/* third part */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 15%;
+}
+
+.quote #quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#author {
+    font-weight: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}
