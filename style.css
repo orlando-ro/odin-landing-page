@@ -145,3 +145,48 @@ a {
     font-weight: bold;
     align-self: flex-end;
 }
+
+/*fourth part*/
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+}
+
+.signup .box {
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 48px;
+}
+
+.signup p {
+    color: #f9faf8;
+    margin: 0;
+}
+
+.signup #main {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.signup span {
+    display: flex;
+    flex-direction: column;
+}
+
+.box button {
+    width: 128px;
+    background-color: #3882f6;
+    border: solid;
+    border-color: #f9faf8;
+    border-width: 2px;
+    color: #f9faf8;
+    border-radius: 10px;
+    height: 40px;
+}
